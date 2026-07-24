@@ -1,3 +1,3 @@
-index.html
-style.css
-script.js
+ecosystem.html
+launchpad.html
+roadmap.html
