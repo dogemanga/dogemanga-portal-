@@ -291,3 +291,39 @@ footer{
     <a href="#links">Links</a>
   </div>
 </nav>
+<!-- CONTRATO OFICIAL -->
+<section id="contract" class="section">
+  <div class="container">
+
+    <h2>🔒 Contrato Oficial</h2>
+
+    <p>
+      Utilize apenas o contrato oficial da DogeManga.
+      Nunca envie fundos para contratos divulgados por terceiros.
+    </p>
+
+    <input
+      type="text"
+      id="contractAddress"
+      value="COLE_AQUI_O_CONTRATO_DA_DOGEMANGA"
+      readonly
+    >
+
+    <br><br>
+
+    <button onclick="copyContract()" class="btn">
+      📋 Copiar Contrato
+    </button>
+
+  </div>
+</section>
+
+<script>
+function copyContract() {
+  const input = document.getElementById("contractAddress");
+  input.select();
+  input.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(input.value);
+  alert("Contrato copiado!");
+}
+</script>
