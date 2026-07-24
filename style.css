@@ -146,3 +146,19 @@ footer{
 .card h3{
     color:#f8c300;
 }
+.footer{
+    text-align:center;
+    padding:40px 20px;
+    background:#0d0d1c;
+    border-top:1px solid #29294d;
+}
+
+.footer h3{
+    color:#ffc800;
+    margin-bottom:15px;
+}
+
+.footer p{
+    color:#cccccc;
+    margin:10px 0;
+}
