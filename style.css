@@ -176,3 +176,28 @@ footer{
 .btn:hover{
     transform:scale(1.05);
 }
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:#111;
+    padding:15px 0;
+    z-index:1000;
+    text-align:center;
+}
+
+.navbar a{
+    color:#fff;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.navbar a:hover{
+    color:#ffc800;
+}
+
+body{
+    padding-top:70px;
+}
